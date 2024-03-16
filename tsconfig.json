@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "esnext",
+        "useDefineForClassFields": true,
+        "moduleResolution": "node",
+        "strict": true,
+        "jsx": "preserve",
+        "sourceMap": true,
+        "resolveJsonModule": true,
+        "isolatedModules": false,
+        "esModuleInterop": true,
+        "lib": ["esnext", "dom", "dom.iterable"],
+        "skipLibCheck": true,
+        "outDir": "dist/electron",
+    },
+    "files": [],
+    "references": [
+        {
+            "path": "./tsconfig.config.json",
+        },
+        {
+            "path": "./tsconfig.app.json",
+        },
+        {
+            "path": "./tsconfig.cypress-ct.json",
+        },
+    ],
+    "types": [
+        "types/click-outside-vue3.d.ts",
+    ],
+}

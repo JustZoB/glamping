@@ -1,0 +1,30 @@
+{
+    "printWidth": 120,
+    "endOfLine": "auto",
+    "tabWidth": 4,
+    "semi": true,
+    "arrowParens": "always",
+    "singleQuote": true,
+    "bracketSameLine": false,
+    "trailingComma": "es5",
+    "bracketSpacing": true,
+    "overrides": [
+        {
+            "files": ["*.html"],
+            "options": {
+                "singleQuote": false,
+                "tabWidth": 4,
+                "parser": "html"
+            }
+        },
+        {
+            "files": ["*.vue"],
+            "options": {
+                "singleQuote": true,
+                "tabWidth": 4,
+                "parser": "vue"
+            }
+        }
+    ]
+}
+  

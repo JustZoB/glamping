@@ -1,0 +1,731 @@
+{
+    "locale": {
+        "en": "English",
+        "ru": "Russian"
+    },
+    "nav": {
+        "home": "Home",
+        "content": "Content",
+        "pages": "Pages",
+        "categories": "Categories",
+        "menu": "Menu",
+        "galleries": "Galleries",
+        "contacts": "Contacts",
+        "customers": "Customers",
+        "users": "Users",
+        "help": "Help",
+        "forms": "Forms",
+        "tables": "Tables",
+        "shop": "Shop",
+        "names": "Products",
+        "deals": "Deals",
+        "products": "Products",
+        "stock": "Stock",
+        "settings": "Settings",
+        "sizes": "Sizes",
+        "heights": "Heights",
+        "template-grids": "Template grids",
+        "site-settings": "Site settings",
+        "reviews": "Reviews",
+        "discounts": "Discounts",
+        "promocodes": "Promocodes",
+        "system": "System",
+        "laravel-commands": "Laravel commands",
+        "laravel-logs": "Laravel logs"
+    },
+    "profile": {
+        "edit-profile": "Edit profile",
+        "language-switch": "Language switch",
+        "log-out": "Log Out"
+    },
+    "deleting-confirm": {
+        "title": "Are you sure?",
+        "description": "ВAre you sure you want to delete this entry? This process cannot be undone."
+    },
+    "button": {
+        "login": "Login",
+        "create": "Create",
+        "edit": "Edit",
+        "add": "Add",
+        "delete": "Delete",
+        "cancel": "Cancel",
+        "save": "Save",
+        "close": "Close",
+        "blocked": "Blocked",
+        "active": "Active",
+        "enabled": "Enabled",
+        "published": "Published",
+        "view": "View",
+        "add-new-row": "Add new row",
+        "delete-selected-rows": "Delete selected rows",
+        "save-and-close": "Save and close",
+        "delete-selected": "Delete selected",
+        "create-children": "Create children element",
+        "add-column": "Add column",
+        "add-row": "Add row",
+        "delete-size": "Delete size",
+        "delete-height": "Delete height",
+        "settings": "Settings",
+        "heating": "Heating",
+        "forced_ventilation": "Forced ventilation",
+        "electricity": "Electricity",
+        "security": "Security",
+        "opened": "Opened",
+        "paid": "Paid"
+    },
+    "input": {
+        "name": {
+            "full_name": "Full name",
+            "first-name": "First name",
+            "last-name": "Last name",
+            "surname": "Surname",
+            "name": "Name",
+            "password": "Password",
+            "old-password": "Old password",
+            "new-password": "New password",
+            "email": "E-mail",
+            "phone": "Phone",
+            "second_phone": "Second phone",
+            "birthday": "Birthday",
+            "company": "Company",
+            "position": "Position",
+            "country": "Country",
+            "city": "City",
+            "notes": "Notes",
+            "role": "Role",
+            "photo": "Photo",
+            "avatar": "Avatar",
+            "language": "Language",
+            "url": "Url",
+            "article": "Article",
+            "naming": "Naming",
+            "model": "Model",
+            "price": "Price",
+            "unit": "Unit",
+            "quantity": "Quantity",
+            "label": "Label",
+            "categories": "Categories",
+            "title": "Title",
+            "code": "Code",
+            "menu-items": "Menu items",
+            "link": "Link",
+            "slug": "Slug",
+            "sub_title": "Subtitle",
+            "category_main_image": "Category image",
+            "category_preview_image": "Category image preview",
+            "category_sub_main_image": "Subcategory image (710x650px)",
+            "category_sub_main_image_mobile": "Subcategory mobile image (768x320px)",
+            "category_sub_preview_image": "Subcategory image preview (716x550-613px)",
+            "category_sub_preview_image_mobile": "Subcategory mobile image preview (406x250px)",
+            "sub_image": "Sub image",
+            "description": "Description",
+            "main_description": "Main description",
+            "sub_description": "Sub description",
+            "promo_video_link": "Promo video link",
+            "promo_video_image": "Promo video preview image",
+            "seo_text": "Seo text",
+            "customFields": "Custom fields",
+            "value": "Value",
+            "photos": "Gallery photos",
+            "media": "Gallery photos and videos",
+            "instagram_photos": "Instagram photos",
+            "size": "Size",
+            "height": "Height",
+            "template-grid": "Template grid",
+            "original_price": "Price without discount",
+            "current_price": "Price with discount",
+            "compound": "Compound",
+            "publication_date": "Publication date",
+            "article_id": "Product ID in AmoCRM",
+            "product-category": "Product category",
+            "product_status": "Product status",
+            "product_type": "Product type",
+            "model_height": "Product model height",
+            "model_params": "Product model params",
+            "model_size": "Product model size",
+            "sizes": "Product sizes",
+            "template-sizes": "Product template sizes",
+            "new-template-sizes": "New product template sizes",
+            "size-russian_size": "Russian size",
+            "size-height": "Height, cm",
+            "size-weight": "Weight, kg",
+            "video_title": "Title of the video block",
+            "video_description": "Description of the video block",
+            "video_preview_image": "Video block image preview",
+            "video_link": "Link to video",
+            "site-setting-item-type": "Item type",
+            "profile_link": "Link to profile",
+            "review_link": "Review link",
+            "review_text": "Review text",
+            "social_type": "Review social type",
+            "date": "Date",
+            "text": "Text",
+            "customer_name": "Customer name",
+            "customer_phone": "Customer phone",
+            "amount": "Amount",
+            "address": "Address",
+            "created_at": "Created at",
+            "order_time": "Order time",
+            "deal_type": "Deal type",
+            "page-category": "Page category",
+            "image": "Image",
+            "image_preview": "Image preview",
+            "content": "Content",
+            "content_preview": "Content preview",
+            "popular-products": "Popular products",
+            "show_on_main_page": "Show on main page",
+            "gender": "Gender",
+            "old_slug": "Old slug",
+            "is_general": "General category",
+            "videos": "Videos",
+            "video_url": "Video url",
+            "stock-settings-columns": "Select the columns to be displayed",
+            "discount_coef": "Percent discount",
+            "discount_amount": "Amount discount",
+            "discount_products": "Discount products",
+            "date_from": "Date from",
+            "date_to": "Date to",
+            "edit_mode": "Edit mode",
+            "external-link": "External link",
+            "local_temperature": "Local temperature",
+            "target_temperature": "Target temperature"
+        },
+        "placeholder": {
+            "search": "Search {it}",
+            "name": "Name",
+            "email": "E-mail",
+            "password": "Password",
+            "role": "Role",
+            "product-category": "Choose product category",
+            "product_status": "Without status",
+            "product_type": "Choose product type",
+            "template-sizes": "Choose template sizes",
+            "new-template-sizes": "Choose new template sizes",
+            "site-setting-item-type": "Choose item type",
+            "social_type": "Choose review social type",
+            "page-category": "Choose page category",
+            "popular-products": "Choose popular products",
+            "gender": "Select gender for selected product",
+            "ozon": {
+                "colors": "Select colors for selected product",
+                "tags": "Enter tags"
+            },
+            "wildberries": {
+                "colors": "Select colors for selected product",
+                "tags": "Enter tags"
+            },
+            "discount_products": "Choose products"
+        },
+        "loading": "Download options...",
+        "no-options": {
+            "product-categories": "There are no categories options available. Create them in Products -> Categories",
+            "product-sizes": "There are no size options available. Create them in Products -> Sizes",
+            "product-heights": "There are no size options available. Create them in Products -> Heights",
+            "product-template-grids": "There are no template grid options available. Create them in Products -> Template Grids",
+            "reviews-social-types": "There are no options for choosing the type of reviews",
+            "page-category": "There are no categories options available. Create them in Content -> Categories",
+            "popular-products": "There are no products options available. Create them in Products -> Products",
+            "product_type": "There are no product type options available",
+            "product_status": "There are no product status options available",
+            "gender": "There are no genders options available",
+            "ozon": {
+                "colors": "There are no colors options available"
+            },
+            "wildberries": {
+                "colors": "There are no colors options available"
+            }
+        },
+        "tooltip": {
+            "full_name": "Enter your full name",
+            "name": "Enter name",
+            "first-name": "Enter your first name",
+            "last-name": "Enter your last name",
+            "surname": "Enter your surname",
+            "password": "Enter your password",
+            "old-password": "To change your password, enter your old password and your new one",
+            "new-password": "To change your password, enter your old password and your new one",
+            "email": "Enter your email",
+            "phone": "Enter your phone",
+            "birthday": "Enter your birthday",
+            "company": "Enter your company name",
+            "position": "Enter your position in your company",
+            "city": "Enter your city",
+            "notes": "Enter any additional notes",
+            "role": "Choose role",
+            "photo": "Available image types: png, jpg, jpeg",
+            "avatar": "Available image types: png, jpg, jpeg",
+            "article": "Enter article",
+            "naming": "Enter naming",
+            "image": "Enter image",
+            "image_preview": "Enter image preview",
+            "description": "Enter description",
+            "content": "Enter content",
+            "content_preview": "Enter content preview",
+            "model": "Enter model",
+            "price": "Enter price",
+            "unit": "Enter unit",
+            "quantity": "Enter quantity",
+            "label": "Enter label",
+            "title": "Enter title",
+            "code": "Enter code",
+            "menu-items": "List of menu items",
+            "link": "Enter link",
+            "slug": "Enter slug",
+            "sub_title": "Enter subtitle",
+            "category_main_image": "Category image at the top of the page",
+            "category_preview_image": "Category image at the bottom of other pages",
+            "category_sub_main_image": "Subcategory image on the subcategory page",
+            "category_sub_main_image_mobile": "Subcategory mobile image on the subcategory page",
+            "category_sub_preview_image": "Subcategory image on other pages",
+            "category_sub_preview_image_mobile": "Subcategory mobile image on other pages",
+            "category_gallery_photos": "Image gallery on category page",
+            "category_instagram_gallery_photos": "Gallery of images from instagram on the category page at the bottom",
+            "popular-products": "Popular products linked to a category. Will be displayed for all products in this category below",
+            "main_description": "Description on the page",
+            "sub_description": "Description on other page",
+            "promo_video_link": "Promo video link",
+            "promo_video_image": "Promo video preview image",
+            "seo_text": "SEO text",
+            "size": "Enter size",
+            "height": "Enter height",
+            "template-grid": "Fill template grid to create table",
+            "article_id": "Product ID in AmoCRM",
+            "compound": "Composition of the product (cotton, silk, elastance in percent) string",
+            "publication_date": "Publication date",
+            "product-category": "Choose a product category",
+            "original_price": "Original price",
+            "current_price": "Current price",
+            "sizes": "You can fill in the fields inside the table to fill in the number of products in stock",
+            "template-sizes": "Choose a template size",
+            "new-template-sizes": "Choose a new template size",
+            "model_height": "Product model height",
+            "model_params": "Product model params",
+            "model_size": "Product model size",
+            "size-russian_size": "Example: 46",
+            "size-height": "Example: 168-174, 174-180",
+            "size-weight": "Example: 55-65",
+            "product_gallery_photos": "Available image types: png, jpg, jpeg",
+            "product_gallery_media": "Available image types: png, jpg, jpeg. Available video types: mp4, avi. The file size must not exceed 50 MB",
+            "video_title": "If not filled, taken from the product category",
+            "video_description": "If not filled, taken from the product category",
+            "video_preview_image": "If not filled, taken from the product category",
+            "video_link": "If not filled, taken from the product category",
+            "profile_link": "Link to profile",
+            "review_link": "Review link",
+            "date": "Enter date",
+            "text": "Enter text",
+            "review_text": "Enter review text",
+            "customer_name": "Enter customer name",
+            "page_article_image": "Image on the article page and on the main page",
+            "page_article_blog_image_preview": "Preview image of the article on the blog page",
+            "page_content": "Content on the page",
+            "page_content_preview": "Content on other pages",
+            "show_on_main_page": "In popular products",
+            "gender": "To match the size tables for the site",
+            "old_slug": "Old slug on previous version of site",
+            "ozon": {
+                "article": "Ozon parent article",
+                "compound": "Ozon material composition",
+                "photos_gallery": "Ozon photos (900x1200px)",
+                "videos": "Maximum 3 videos",
+                "colors": "Ozon product color, from largest to smallest",
+                "original_price": "Original price. Leave the field blank to take the price from the product",
+                "current_price": "Current price. Leave the field blank to take the price from the product",
+                "annotation": "Product description, marketing text. Must be filled out in Russian",
+                "name": "Product name thane will be displayed on the marketplace instead of original one"
+            },
+            "wildberries": {
+                "media": "Pictures must be 900/1200px in size. The file size must not exceed 50 MB",
+                "description": "Wildberries description",
+                "price": "Leave the field blank to take the price from the product",
+                "colors": "Wildberries product color, from largest to smallest",
+                "name": "Product name thane will be displayed on the marketplace instead of original one"
+            },
+            "stock-settings-columns": "The columns that will be shown are highlighted green, and the columns that will be hidden are highlighted in red"
+        },
+        "add-tooltip": {
+            "photo": "Add photo",
+            "image": "Add image",
+            "images": "Add images",
+            "file": "Add file",
+            "yandex-link": "Add yandex link",
+            "youtube-link": "Add youtube link",
+            "external-link": "Add external link",
+            "media": "Add media file"
+        },
+        "edit-tooltip": {
+            "photo": "Change photo",
+            "image": "Change image"
+        },
+        "delete-tooltip": {
+            "photo": "Delete photo",
+            "image": "Delete image",
+            "video": "Delete video",
+            "file": "Delete file",
+            "yandex-link": "Delete yandex link",
+            "youtube-link": "Delete youtube link",
+            "external-link": "Delete external link"
+        },
+        "empty": {
+            "gallery": "Gallery is empty. Click the \"Add&nbsp;images\" button on the top right to add"
+        }
+    },
+    "validation": {
+        "error": {
+            "compound_must_have_percent": "Each material must have a percentage",
+            "compound_must_have_number": "Each material must have a number in front of the percentage",
+            "compound_must_split_by_comma": "There must be a comma between materials",
+            "compound_must_have_space_after_percent": "After each percentage in the material, there must be a space separating the number and name of the material",
+            "compound_number_before_percent_must_be_integer": "The text before the percentage, separated by a comma, must be a number. Percentage must be before the name of the material",
+            "compound_sum_must_equal_100": "The sum of the percent of the materials must be equal to 100%",
+            "compound_numbers_must_go_in_order": "Percentages in compound must be in order from highest to lowest."
+        }
+    },
+    "name": {
+        "roles": "Roles",
+        "user": "User",
+        "users": "Users",
+        "customer": "Customer",
+        "customers": "Customers",
+        "manager": "Manager",
+        "managers": "Managers",
+        "statistics": "Statistics",
+        "totalStats": "Total statistics",
+        "fastBlock": "'Fast Block'",
+        "profile": "Profile",
+        "deals": "Deals",
+        "products": "Products",
+        "product-count": "Product count",
+        "product-category": "Product category",
+        "product-categories": "Product categories",
+        "content-menu": "Menu",
+        "content-menu-items": "Menu items",
+        "content-menu-item": "Menu item",
+        "product-size": "Size",
+        "product-sizes": "Sizes",
+        "product-height": "Height",
+        "product-heights": "Heights",
+        "product-template-grid": "Template grid",
+        "product-template-grids": "Template grids",
+        "review": "Review",
+        "reviews": "Reviews",
+        "content-page": "Content page",
+        "content-pages": "Content pages",
+        "page-category": "Page category",
+        "page-categories": "Page categories",
+        "system": {
+            "laravel": {
+                "command": "Laravel command",
+                "commands": "Laravel commands",
+                "command-status": "Laravel command status",
+                "logs": "Laravel logs",
+                "logs-file": "Laravel logs file",
+                "logs-file-line": "Laravel logs file line"
+            }
+        },
+        "log": "Log",
+        "glamping": "Glamping"
+    },
+    "toast": {
+        "success": {
+            "message": "Saved",
+            "get": "{it} successfully received",
+            "read": "{it} successfully read",
+            "create": "{it} successfully created",
+            "edit": "{it} successfully edited",
+            "delete": "{it} successfully deleted",
+            "publish": "{it} successfully publish",
+            "import": "{it} successfully imported",
+            "run": "{it} successfully finished"
+        },
+        "failed": {
+            "get": "Failed to get {it}",
+            "read": "Failed to read {it}",
+            "create": "Failed to create {it}",
+            "update": "Failed to update {it}",
+            "edit": "Failed to edit {it}",
+            "delete": "Failed to delete {it}",
+            "publish": "Failed to publish {it}",
+            "import": "Failed to import {it}",
+            "run": "Failed to run {it}",
+            "login": "Failed to login",
+            "logout": "Failed to logout"
+        },
+        "not-valid": "Fill in all fields correctly",
+        "doesnt-exist": "This {it} doesn't exist or no longer exist",
+        "image-file-type-not-available": "Image file type not available. Available image types: png, jpg, jpeg",
+        "input-tags": {
+            "max-tags-reached": "Max tags reached",
+            "adding-duplicate": "Adding duplicate"
+        }
+    },
+    "error": {
+        "failed": {
+            "get": "Failed to get {it}",
+            "read": "Failed to read {it}",
+            "create": "Failed to create {it}",
+            "update": "Failed to update {it}",
+            "edit": "Failed to edit {it}",
+            "delete": "Failed to delete {it}"
+        },
+        "something-went-wrong": "Something went wrong",
+        "not-valid": "Fill in all fields correctly",
+        "doesnt-exist": "This {it} doesn't exist or no longer exist",
+        "page-not-found": "Page not found",
+        "broken-link-or-page-removed": "The link you followed probably broken or the page has been removed.",
+        "not-authorized": "You are not authorized",
+        "not-enough-rights": "Not enough rights",
+        "wrong": {
+            "login-or-password": "Wrong login or password"
+        }
+    },
+    "modal": {
+        "title": {
+            "create": {
+                "user": "Create user",
+                "promocode": "Create promocode"
+            },
+            "edit": {
+                "user": "Edit user",
+                "glamping": "Edit glamping"
+            },
+            "view": {
+                "deal": "Deal view"
+            }
+        }
+    },
+    "table": {
+        "header": {
+            "name": "Name",
+            "full_name": "Full name",
+            "first-name": "First name",
+            "last-name": "Last name",
+            "position": "Position",
+            "email": "E-mail",
+            "phone": "Phone",
+            "blocked": "Blocked",
+            "active": "Active",
+            "enabled": "Enabled",
+            "published": "Published",
+            "url": "Url",
+            "actions": "Actions",
+            "date": "Date",
+            "role": "Role",
+            "task-closed": "Task closed",
+            "task-overdue": "Task overdue",
+            "purchase-amount": "Purchase amount",
+            "customer": "Customer",
+            "city": "City",
+            "order-price": "Order price",
+            "photo": "Photo",
+            "article": "Article",
+            "model": "Model",
+            "naming": "Naming",
+            "price": "Price",
+            "title": "Title",
+            "size": "Size",
+            "height": "Height",
+            "template-grid": "Template grid",
+            "product_category_name": "Product category",
+            "slug": "Slug",
+            "code": "Code",
+            "type": "Type",
+            "value": "Value",
+            "review_link": "Review link",
+            "customer_phone": "Customer phone",
+            "customer_name": "Customer name",
+            "address": "Address",
+            "amount": "Amount",
+            "quantity": "Quantity",
+            "profile_link": "Profile link",
+            "page_category": "Page category",
+            "order_time": "Order time",
+            "date_from": "Date from",
+            "date_to": "Date to",
+            "original_price": "Original price",
+            "current_price": "Current price",
+            "orders": "Orders",
+            "discount": "Discount",
+            "promocode": "Promocode"
+        },
+        "empty": "Table is empty",
+        "role": {
+            "without": "No role"
+        }
+    },
+    "collapse": {
+        "video": "Video"
+    },
+    "help": {
+        "forms": {
+            "title": "Help Forms"
+        },
+        "tables": {
+            "title": "Help Tables"
+        }
+    },
+    "role": {
+        "super-admin": "Super admin",
+        "admin": "Administrator",
+        "manager": "Manager",
+        "guest": "Guest",
+        "storekeeper": "Storekeeper",
+        "advertiser": "Advertiser"
+    },
+    "home": {
+        "title": "Home page",
+        "top10": {
+            "title": "Top 10 products"
+        }
+    },
+    "users": {
+        "title": "Users"
+    },
+    "customers": {
+        "title": "Customers"
+    },
+    "deals": {
+        "title": "Deals",
+        "list": "Deals list",
+        "type": {
+            "lead_callback": "Lead callback",
+            "lead_team": "Lead team",
+            "order_cart": "Order cart",
+            "order_quick": "Order quick",
+            "default": "Default"
+        }
+    },
+    "content": {
+        "pages": {
+            "title": "Pages"
+        }
+    },
+    "categories": {
+        "title": "Categories"
+    },
+    "reviews": {
+        "title": "Reviews",
+        "social_type": {
+            "inst": "Instagram",
+            "vk": "VKontakte",
+            "camera": "Camera",
+            "star": "Star"
+        }
+    },
+    "site-settings": {
+        "title": "Site settings",
+        "items": {
+            "title": "Site settings items",
+            "types": {
+                "text": "Text",
+                "string": "String",
+                "image": "Image",
+                "boolean": "Checkbox"
+            }
+        }
+    },
+    "products": {
+        "names": {
+            "title": "Products"
+        },
+        "stock": {
+            "title": "Products stock",
+            "table": {
+                "name": "Product name",
+                "article": "Article",
+                "price": "Price ₽",
+                "total": "Total"
+            },
+            "total": "Total amount of products"
+        },
+        "categories": {
+            "title": "Product categories",
+            "empty": "There are no categories created yet. Click \"Create\" button on the top right to create",
+            "category": {
+                "image-title": "Product category"
+            },
+            "subcategory": {
+                "image-title": "Product subcategory"
+            }
+        },
+        "sizes": {
+            "title": "Product sizes"
+        },
+        "heights": {
+            "title": "Product heights"
+        },
+        "template-grids": {
+            "title": "Product template grids",
+            "table": {
+                "names": "Height / Size"
+            }
+        },
+        "settings": {
+            "title": "Product settings",
+            "general": {
+                "title": "Product general settings",
+                "tab": "General"
+            },
+            "products-fields": {
+                "title": "Products fields settings",
+                "tab": "Products fields"
+            },
+            "categories-fields": {
+                "title": "Product categories settings",
+                "tab": "Categories fields"
+            }
+        }
+    },
+    "discounts": {
+        "title": "Discounts"
+    },
+    "promocodes": {
+        "title": "Promocodes"
+    },
+    "menus": {
+        "title": "Menu",
+        "empty": "There are no menus created yet. Click \"Create\" button on the top right to create"
+    },
+    "product": {
+        "status": {
+            "0": "New",
+            "1": "Exclusive"
+        },
+        "type": {
+            "suit": "Suit",
+            "sweatshirt": "Sweatshirt",
+            "pants": "Pants",
+            "shirt": "Shirt",
+            "polo": "Polo"
+        }
+    },
+    "gender": {
+        "m": "Male",
+        "f": "Female"
+    },
+    "color": {
+        "light-blue": "Light blue",
+        "blue": "Blue",
+        "dark-blue": "Dark blue",
+        "red": "Red",
+        "dark-red": "Dark red",
+        "light-gray": "Light gray",
+        "gray": "Gray",
+        "dark-gray": "Dark gray",
+        "white": "White"
+    },
+    "unit": {
+        "sm": "sm",
+        "m": "m",
+        "km": "km",
+        "g": "g",
+        "kg": "kg"
+    },
+    "discount": {
+        "fixed": "RUB",
+        "coef": "%"
+    },
+    "video": {
+        "downloading": "The video is loading. Refresh the page after some time."
+    }
+}

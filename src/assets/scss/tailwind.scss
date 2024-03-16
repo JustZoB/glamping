@@ -1,0 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "../fonts/fira-sans/fira-sans-stylesheet.css";
+@import "vue-select/dist/vue-select.css";
+@import "vue-toastification/dist/index.css";
+@import "vue3-perfect-scrollbar/dist/vue3-perfect-scrollbar.css";
+@import "v-select";
+
+@layer base {
+    body {
+        @apply min-h-[calc(100vh-15px)] bg-gray-50 text-gray-700 text-base leading-normal font-fira_sans flex;
+        transition: color 0.5s, background-color 0.5s;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    *,
+    *::before,
+    *::after {
+        @apply relative m-0 box-border;
+    }
+}
+
+@layer components {
+    .min-w-130px {
+        @apply min-w-[130px];
+    }
+
+    .button-md {
+        @apply rounded-md px-4 py-3 text-lg font-normal transition-all hover:bg-opacity-80 focus:bg-opacity-70;
+    }
+
+    .button-sm {
+        @apply rounded-md px-3 py-2 text-[15px] font-normal transition-all hover:bg-opacity-80 focus:bg-opacity-70;
+    }
+
+    .button-primary {
+        @apply bg-sky-800 text-white transition-all hover:bg-opacity-80 focus:bg-opacity-70;
+    }
+
+    .button-light {
+        @apply bg-gray-50 text-gray-700 transition-all hover:bg-opacity-80 focus:bg-opacity-70;
+    }
+
+    .button-icon-header {
+        @apply p-2 rounded-md text-gray-500 transition-all cursor-pointer hover:bg-primary-100 hover:text-primary-800;
+
+        svg {
+            @apply w-6 h-6;
+        }
+
+        &.active {
+            @apply bg-primary-100 text-primary-800;
+        }
+    }
+
+    .button-icon {
+        @apply px-4 py-2 rounded-md text-gray-100 transition-all cursor-pointer hover:bg-opacity-70 focus:bg-opacity-60;
+
+        svg {
+            @apply w-5 h-5;
+        }
+
+        &.active {
+            @apply bg-opacity-60;
+        }
+
+        &.small {
+            @apply flex items-center justify-center px-2 py-1;
+
+            svg {
+                @apply w-4 h-4;
+            }
+        }
+    }
+
+    .custom-scrollbar {
+        &::-webkit-scrollbar {
+            @apply w-2 h-2 bg-gray-100 overflow-hidden rounded;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            @apply min-h-[32px] bg-slate-800 bg-opacity-75 rounded;
+        }
+    }
+
+    .animate-reverse {
+        animation-direction: reverse !important;
+    }
+
+    .outline-solid {
+        outline: 2px solid black;
+    }
+
+    .outline-transparent-1 {
+        outline: 1px solid transparent;
+    }
+
+    .outline-red-1 {
+        outline: 1px solid #D8232A;
+    }
+
+    .ghost {
+        @apply border-2 border-dashed border-blue-400 bg-transparent;
+
+        & > div {
+            @apply opacity-0;
+        }
+    }
+
+    .sticky-column-active {
+        @apply sticky right-0 bg-gray-20;
+    }
+
+    .tooltip {
+        @apply relative;
+    }
+}
